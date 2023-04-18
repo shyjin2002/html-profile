@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url("images.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            padding: 50px;
+
+        }
+
+        .main {
+            border-radius: 50px;
+            padding: 50px;
+        }
+
+        .header {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows: repeat(1, 5vw);
+            column-gap: 10px;
+            row-gap: 10px;
+            padding: 10px;
+
+        }
+
+        .s_image {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        h2{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main" style="background-color: rgb(29, 28, 28);">
+        <div class="header">
+            <div class="s_image"><img src="./Capture.JPG" alt=>
+            </div>
+            <div class="about me"><h2>About Me</h2></div>
+        </div>
+
+    </div>
+
+
+
+    </div>
+</body>
+
+</html>
