@@ -1,9 +1,8 @@
 body {
-    background-image: url(./images.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-color:#007ced;
+   
     padding: 50px;
-    background-attachment: fixed;
+ 
 }
 
 img {
@@ -383,4 +382,34 @@ input {
 .year:hover {
     border-bottom: 1px solid #007ced;
     border-left: 1px solid #007ced;
+}
+@media only screen and (max-width:1024px ) {
+    
+        .image {
+            display: flex;
+            flex-direction: column;
+    }
+    *{
+        align-items: center;
+    }
+  }
+  @media only screen and (max-width: 768px)
+  {
+    li{
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 425px)
+  {
+  .parent {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    padding-top: 20px;
+  }
 }
