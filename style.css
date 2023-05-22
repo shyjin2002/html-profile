@@ -12,8 +12,7 @@ img {
 }
 
 .main {
-    background-color: #222;
-    ;
+    background-color: rgb(29, 28, 28);
     padding: 50px;
     border-radius: 50px;
     padding-bottom: 0px;
@@ -26,37 +25,15 @@ img {
 }
 
 * {
-    transition: 2s;
+    transition: 1s;
     padding: 0px;
     margin: 0px;
     color: #d5d5d5;
-    font-family: poppins, Helvetica, sans-serif
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.75em;
-    color: #d5d5d5;
-    font-weight: 600;
-    font-style: normal;
-}
-
-.menu li {
     font-size: 20px;
-}
-
-.menu li:hover {
-    color: white;
-
-}
-
-.sub_title {
-    display: inline-block;
-    font-size: 12px;
-    color: #aaa;
-    margin-left: 5px;
-    font-weight: 600;
-    font-stretch: normal;
+    font-weight: 100px;
 }
 
 h1,
@@ -64,8 +41,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-li {
+h6 {
     font-family: poppins, Helvetica, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -78,7 +54,6 @@ li {
     border-width: 100px;
     height: 50px;
     width: 50px;
-    text-align: center;
 }
 
 h3 {
@@ -90,7 +65,7 @@ h2 {
 }
 
 h1 {
-
+    margin-left: 14px;
     margin-top: 6px;
 }
 
@@ -146,23 +121,15 @@ h2 {
     padding: 150px
 }
 
-.name1 {
-    font-size: 16px;
-    color: #aaa;
-    font-weight: 300;
-}
-
 .profile_img img {
     height: 300px;
     border-radius: 50%;
-    border: 17px solid rgb(95, 93, 93);
+    border: 15px solid rgb(95, 93, 93);
     width: 300px;
-    box-shadow: 0 10px 10px -8px rgba(0,0,0,.78);
-
 }
 
 .name {
-    font-size: 48px;
+    font-size: 60px;
 }
 
 .Download:hover {
@@ -177,7 +144,6 @@ h2 {
 
 .section-title h2 {
     position: relative;
-    padding: 10px;
 }
 
 .section-title h2:before {
@@ -204,15 +170,6 @@ h2 {
 .fa-solid {
     color: #007ced;
     font-size: 45px;
-}
-
-.section4 p {
-    font-size: .92em;
-    color: #d5d5d5;
-}
-
-.section4 h3 {
-    margin-left: 0px;
 }
 
 .parent>div {
@@ -343,8 +300,7 @@ input {
     margin-left: -45px;
 }
 
-.year,
-.edu {
+.year ,.edu{
     border-bottom: 1px solid rgb(95, 93, 93);
     border-left: 1px solid rgb(95, 93, 93);
     padding: 30px
@@ -395,8 +351,8 @@ input {
 
 }
 
-.f1 {
-    position: relative;
+.f1{
+    position:relative;
 }
 
 .f1:after {
@@ -427,30 +383,4 @@ input {
 .year:hover {
     border-bottom: 1px solid #007ced;
     border-left: 1px solid #007ced;
-}
-
-.head1 {
-    position: relative;
-    padding: 10px;
-}
-
-.head1:before {
-
-    content: " ";
-    height: 2px;
-    width: 315px;
-    background-color: rgb(95, 93, 93);
-    position: absolute;
-    bottom: 0;
-
-}
-
-.head1:after {
-    bottom: 0;
-    content: " ";
-    background-color: #007ced;
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 30px;
 }
