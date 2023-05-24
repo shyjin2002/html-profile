@@ -376,12 +376,23 @@ padding-bottom:10px;
     *{
         align-items: center;
     }
+    .msg {
+        display:flex;
+        flex-direction: column;
+        gap:30px;
+    
+    }
+    .form>div {
+        display: flex;
+        flex-direction: column;
+      }
+      li{
+        display: none;
+    }
   }
   @media only screen and (max-width: 768px)
   {
-    li{
-        display: none;
-    }
+    
   }
   @media only screen and (max-width: 425px)
   {
@@ -399,14 +410,5 @@ padding-bottom:10px;
 }
 @media only screen and (max-width: 1024px)
   {
-.msg {
-    display:flex;
-    flex-direction: column;
-    gap:30px;
 
-}
-.form>div {
-    display: flex;
-    flex-direction: column;
-  }
   }
