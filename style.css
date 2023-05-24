@@ -62,9 +62,11 @@ h3 {
 h2 {
     margin-bottom: 20px;
 }
-
+.logo h1{
+    margin-left:14px;
+}
 h1 {
-    margin-left: 14px;
+    
     margin-top: 6px;
 }
 
@@ -396,6 +398,17 @@ padding-bottom:10px;
   }
   @media only screen and (max-width: 425px)
   {
+    .profile_img img {
+        height: 150px;
+        width: 150px;
+    }
+    .main{
+        padding:10px;
+        padding-top: 30px;
+    }
+    body{
+        padding:20px;
+    }
   .parent {
     display: flex;
     flex-direction: column;
@@ -406,6 +419,7 @@ padding-bottom:10px;
   }
   .image{
     padding-top: 20px;
+    padding:50px;
   }
 }
 @media only screen and (max-width: 1024px)
