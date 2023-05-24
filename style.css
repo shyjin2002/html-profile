@@ -143,28 +143,10 @@ h2 {
 
 .section-title h2 {
     position: relative;
+    padding: 10px;
 }
 
-.section-title h2:before {
 
-    content: " ";
-    height: 2px;
-    width: 117px;
-    background-color: rgb(95, 93, 93);
-    position: absolute;
-    bottom: 0;
-
-}
-
-.section-title h2:after {
-    bottom: 0;
-    content: " ";
-    background-color: #007ced;
-    display: block;
-    position: absolute;
-    height: 2px;
-    width: 30px;
-}
 
 .fa-solid {
     color: #007ced;
@@ -297,6 +279,7 @@ input {
     display: inline-block;
     position: relative;
     margin-left: -45px;
+    background-color:rgb(29, 28, 28); ;
 }
 
 .year ,.edu{
@@ -309,26 +292,27 @@ input {
     padding-bottom: 75px;
 }
 
-.resume_heading {
-    display: flex;
-    flex-direction: row;
 
-    gap: 425px;
-    margin-left: 50px;
-}
 
 .section4 {
     display: flex;
+    flex-wrap:wrap;
     flex-direction: row;
     gap: 50px;
     padding-top: 40px;
     margin-left: 60px;
+    width:100%;
 
 }
 
 .education,
 .expirence {
-    width: 500px;
+    width: 400px;
+}
+.resume_heading h2{
+    position:relative;
+    margin: 20px;
+padding-bottom:10px;
 }
 
 .st_edu,
@@ -413,3 +397,16 @@ input {
     padding-top: 20px;
   }
 }
+@media only screen and (max-width: 1024px)
+  {
+.msg {
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+
+}
+.form>div {
+    display: flex;
+    flex-direction: column;
+  }
+  }
