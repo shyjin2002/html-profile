@@ -5,6 +5,11 @@ body {
 
 }
 
+min-icon {
+    display: grid;
+    align-items: center;
+}
+
 img {
     height: 100%;
     width: 100%;
